@@ -1,0 +1,13 @@
+core_cm3.h:1014:22:NVIC_SetPriority	16	static
+core_cm3.h:1139:26:SysTick_Config	16	static
+main.c:17:6:delay_ms	16	static
+main.c:22:6:SysTick_Handler	4	static
+main.c:30:6:PeripheralInit_SPI1_Slave	32	static
+main.c:86:9:transfer_8b_SPI1_Slave	16	static
+main.c:102:6:PeripheralInit_SPI2_Slave	32	static
+main.c:159:9:transfer_8b_SPI2_Slave	16	static
+main.c:175:6:PeripheralInit_USART1	32	static
+main.c:210:5:put_char_usart1	16	static
+main.c:217:5:get_char_usart1	8	static
+main.c:232:5:serial_print_usart1	24	static
+main.c:243:5:main	16	static

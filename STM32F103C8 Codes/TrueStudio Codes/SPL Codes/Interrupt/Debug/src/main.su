@@ -1,0 +1,8 @@
+main.c:20:6:Initialize_Peripherics	16	static
+main.c:41:6:EXTI1_init	24	static
+main.c:61:6:usart_init	32	static
+main.c:122:6:USART1_IRQHandler	8	static
+main.c:142:6:USARTSend	16	static
+main.c:152:6:EXTI1_IRQHandler	8	static
+main.c:165:6:SetSysClockTo72	16	static
+main.c:227:5:main	16	static
