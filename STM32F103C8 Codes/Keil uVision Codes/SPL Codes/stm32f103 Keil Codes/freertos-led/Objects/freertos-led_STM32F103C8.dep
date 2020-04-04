@@ -1,191 +1,0 @@
-Dependencies for Project 'freertos-led', Target 'STM32F103C8': (DO NOT MODIFY !)
-CompilerVersion: 5060750::V5.06 update 6 (build 750)::ARMCC
-F (.\main.c)(0x5E8452CE)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I FreeRTOS\include -I FreeRTOS\portable\RVDS\ARM_CM3-I.\RTE\Device\STM32F103C8-I.\RTE\_STM32F103C8-IC:\Users\Manel\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Manel\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Users\Manel\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc-IC:\Users\Manel\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0-D__UVISION_VERSION="529" -D_RTE_ -DSTM32F10X_MD-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
-I (C:\Users\Manel\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x5825EF3C)
-I (.\RTE\_STM32F103C8\RTE_Components.h)(0x5E81B59F)
-I (C:\Users\Manel\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm3.h)(0x5D263976)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B6CC8)
-I (C:\Users\Manel\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D263976)
-I (C:\Users\Manel\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D263976)
-I (C:\Users\Manel\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D263976)
-I (C:\Users\Manel\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x5825EF3C)
-I (.\RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x5E50FB65)
-I (C:\Users\Manel\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52FAA1F0)
-I (C:\Users\Manel\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52FAA1F0)
-I (C:\Users\Manel\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\misc.h)(0x52FAA1F0)
-I (FreeRTOS/include/FreeRTOS.h)(0x5E50FB65)
-I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9B6CC8)
-I (FreeRTOS/include/FreeRTOSConfig.h)(0x5E50FB65)
-I (FreeRTOS/include/projdefs.h)(0x5E50FB65)
-I (FreeRTOS/include/portable.h)(0x5E50FB65)
-I (FreeRTOS/include/deprecated_definitions.h)(0x5E50FB65)
-I (FreeRTOS\portable\RVDS\ARM_CM3\portmacro.h)(0x5E50FB65)
-I (FreeRTOS/include/mpu_wrappers.h)(0x5E50FB65)
-I (FreeRTOS/include/task.h)(0x5E50FB65)
-I (FreeRTOS/include/list.h)(0x5E50FB65)
-F (.\FreeRTOS\croutine.c)(0x5E50FB65)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I FreeRTOS\include -I FreeRTOS\portable\RVDS\ARM_CM3-I.\RTE\Device\STM32F103C8-I.\RTE\_STM32F103C8-IC:\Users\Manel\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Manel\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Users\Manel\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc-IC:\Users\Manel\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0-D__UVISION_VERSION="529" -D_RTE_ -DSTM32F10X_MD-o .\objects\croutine.o --omf_browse .\objects\croutine.crf --depend .\objects\croutine.d)
-I (FreeRTOS\include\FreeRTOS.h)(0x5E50FB65)
-I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9B6CC8)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B6CC8)
-I (FreeRTOS\include\FreeRTOSConfig.h)(0x5E50FB65)
-I (FreeRTOS\include\projdefs.h)(0x5E50FB65)
-I (FreeRTOS\include\portable.h)(0x5E50FB65)
-I (FreeRTOS\include\deprecated_definitions.h)(0x5E50FB65)
-I (FreeRTOS\portable\RVDS\ARM_CM3\portmacro.h)(0x5E50FB65)
-I (FreeRTOS\include\mpu_wrappers.h)(0x5E50FB65)
-I (FreeRTOS\include\task.h)(0x5E50FB65)
-I (FreeRTOS\include\list.h)(0x5E50FB65)
-I (FreeRTOS\include\croutine.h)(0x5E50FB65)
-F (.\FreeRTOS\event_groups.c)(0x5E50FB65)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I FreeRTOS\include -I FreeRTOS\portable\RVDS\ARM_CM3-I.\RTE\Device\STM32F103C8-I.\RTE\_STM32F103C8-IC:\Users\Manel\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Manel\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Users\Manel\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc-IC:\Users\Manel\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0-D__UVISION_VERSION="529" -D_RTE_ -DSTM32F10X_MD-o .\objects\event_groups.o --omf_browse .\objects\event_groups.crf --depend .\objects\event_groups.d)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9B6CCA)
-I (FreeRTOS\include\FreeRTOS.h)(0x5E50FB65)
-I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9B6CC8)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B6CC8)
-I (FreeRTOS\include\FreeRTOSConfig.h)(0x5E50FB65)
-I (FreeRTOS\include\projdefs.h)(0x5E50FB65)
-I (FreeRTOS\include\portable.h)(0x5E50FB65)
-I (FreeRTOS\include\deprecated_definitions.h)(0x5E50FB65)
-I (FreeRTOS\portable\RVDS\ARM_CM3\portmacro.h)(0x5E50FB65)
-I (FreeRTOS\include\mpu_wrappers.h)(0x5E50FB65)
-I (FreeRTOS\include\task.h)(0x5E50FB65)
-I (FreeRTOS\include\list.h)(0x5E50FB65)
-I (FreeRTOS\include\timers.h)(0x5E50FB65)
-I (FreeRTOS\include\event_groups.h)(0x5E50FB65)
-F (.\FreeRTOS\list.c)(0x5E50FB65)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I FreeRTOS\include -I FreeRTOS\portable\RVDS\ARM_CM3-I.\RTE\Device\STM32F103C8-I.\RTE\_STM32F103C8-IC:\Users\Manel\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Manel\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Users\Manel\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc-IC:\Users\Manel\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0-D__UVISION_VERSION="529" -D_RTE_ -DSTM32F10X_MD-o .\objects\list.o --omf_browse .\objects\list.crf --depend .\objects\list.d)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9B6CCA)
-I (FreeRTOS\include\FreeRTOS.h)(0x5E50FB65)
-I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9B6CC8)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B6CC8)
-I (FreeRTOS\include\FreeRTOSConfig.h)(0x5E50FB65)
-I (FreeRTOS\include\projdefs.h)(0x5E50FB65)
-I (FreeRTOS\include\portable.h)(0x5E50FB65)
-I (FreeRTOS\include\deprecated_definitions.h)(0x5E50FB65)
-I (FreeRTOS\portable\RVDS\ARM_CM3\portmacro.h)(0x5E50FB65)
-I (FreeRTOS\include\mpu_wrappers.h)(0x5E50FB65)
-I (FreeRTOS\include\list.h)(0x5E50FB65)
-F (.\FreeRTOS\queue.c)(0x5E50FB65)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I FreeRTOS\include -I FreeRTOS\portable\RVDS\ARM_CM3-I.\RTE\Device\STM32F103C8-I.\RTE\_STM32F103C8-IC:\Users\Manel\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Manel\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Users\Manel\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc-IC:\Users\Manel\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0-D__UVISION_VERSION="529" -D_RTE_ -DSTM32F10X_MD-o .\objects\queue.o --omf_browse .\objects\queue.crf --depend .\objects\queue.d)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9B6CCA)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9B6CC8)
-I (FreeRTOS\include\FreeRTOS.h)(0x5E50FB65)
-I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9B6CC8)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B6CC8)
-I (FreeRTOS\include\FreeRTOSConfig.h)(0x5E50FB65)
-I (FreeRTOS\include\projdefs.h)(0x5E50FB65)
-I (FreeRTOS\include\portable.h)(0x5E50FB65)
-I (FreeRTOS\include\deprecated_definitions.h)(0x5E50FB65)
-I (FreeRTOS\portable\RVDS\ARM_CM3\portmacro.h)(0x5E50FB65)
-I (FreeRTOS\include\mpu_wrappers.h)(0x5E50FB65)
-I (FreeRTOS\include\task.h)(0x5E50FB65)
-I (FreeRTOS\include\list.h)(0x5E50FB65)
-I (FreeRTOS\include\queue.h)(0x5E50FB65)
-F (.\FreeRTOS\tasks.c)(0x5E50FB65)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I FreeRTOS\include -I FreeRTOS\portable\RVDS\ARM_CM3-I.\RTE\Device\STM32F103C8-I.\RTE\_STM32F103C8-IC:\Users\Manel\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Manel\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Users\Manel\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc-IC:\Users\Manel\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0-D__UVISION_VERSION="529" -D_RTE_ -DSTM32F10X_MD-o .\objects\tasks.o --omf_browse .\objects\tasks.crf --depend .\objects\tasks.d)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9B6CCA)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9B6CC8)
-I (FreeRTOS\include\FreeRTOS.h)(0x5E50FB65)
-I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9B6CC8)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B6CC8)
-I (FreeRTOS\include\FreeRTOSConfig.h)(0x5E50FB65)
-I (FreeRTOS\include\projdefs.h)(0x5E50FB65)
-I (FreeRTOS\include\portable.h)(0x5E50FB65)
-I (FreeRTOS\include\deprecated_definitions.h)(0x5E50FB65)
-I (FreeRTOS\portable\RVDS\ARM_CM3\portmacro.h)(0x5E50FB65)
-I (FreeRTOS\include\mpu_wrappers.h)(0x5E50FB65)
-I (FreeRTOS\include\task.h)(0x5E50FB65)
-I (FreeRTOS\include\list.h)(0x5E50FB65)
-I (FreeRTOS\include\timers.h)(0x5E50FB65)
-I (FreeRTOS\include\StackMacros.h)(0x5E50FB65)
-F (.\FreeRTOS\timers.c)(0x5E50FB65)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I FreeRTOS\include -I FreeRTOS\portable\RVDS\ARM_CM3-I.\RTE\Device\STM32F103C8-I.\RTE\_STM32F103C8-IC:\Users\Manel\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Manel\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Users\Manel\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc-IC:\Users\Manel\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0-D__UVISION_VERSION="529" -D_RTE_ -DSTM32F10X_MD-o .\objects\timers.o --omf_browse .\objects\timers.crf --depend .\objects\timers.d)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9B6CCA)
-I (FreeRTOS\include\FreeRTOS.h)(0x5E50FB65)
-I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9B6CC8)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B6CC8)
-I (FreeRTOS\include\FreeRTOSConfig.h)(0x5E50FB65)
-I (FreeRTOS\include\projdefs.h)(0x5E50FB65)
-I (FreeRTOS\include\portable.h)(0x5E50FB65)
-I (FreeRTOS\include\deprecated_definitions.h)(0x5E50FB65)
-I (FreeRTOS\portable\RVDS\ARM_CM3\portmacro.h)(0x5E50FB65)
-I (FreeRTOS\include\mpu_wrappers.h)(0x5E50FB65)
-I (FreeRTOS\include\task.h)(0x5E50FB65)
-I (FreeRTOS\include\list.h)(0x5E50FB65)
-I (FreeRTOS\include\queue.h)(0x5E50FB65)
-I (FreeRTOS\include\timers.h)(0x5E50FB65)
-F (.\FreeRTOS\portable\MemMang\heap_1.c)(0x5E50FB65)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I FreeRTOS\include -I FreeRTOS\portable\RVDS\ARM_CM3-I.\RTE\Device\STM32F103C8-I.\RTE\_STM32F103C8-IC:\Users\Manel\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Manel\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Users\Manel\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc-IC:\Users\Manel\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0-D__UVISION_VERSION="529" -D_RTE_ -DSTM32F10X_MD-o .\objects\heap_1.o --omf_browse .\objects\heap_1.crf --depend .\objects\heap_1.d)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9B6CCA)
-I (FreeRTOS\include\FreeRTOS.h)(0x5E50FB65)
-I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9B6CC8)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B6CC8)
-I (FreeRTOS\include\FreeRTOSConfig.h)(0x5E50FB65)
-I (FreeRTOS\include\projdefs.h)(0x5E50FB65)
-I (FreeRTOS\include\portable.h)(0x5E50FB65)
-I (FreeRTOS\include\deprecated_definitions.h)(0x5E50FB65)
-I (FreeRTOS\portable\RVDS\ARM_CM3\portmacro.h)(0x5E50FB65)
-I (FreeRTOS\include\mpu_wrappers.h)(0x5E50FB65)
-I (FreeRTOS\include\task.h)(0x5E50FB65)
-I (FreeRTOS\include\list.h)(0x5E50FB65)
-F (.\FreeRTOS\portable\RVDS\ARM_CM3\port.c)(0x5E50FB65)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I FreeRTOS\include -I FreeRTOS\portable\RVDS\ARM_CM3-I.\RTE\Device\STM32F103C8-I.\RTE\_STM32F103C8-IC:\Users\Manel\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Manel\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Users\Manel\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc-IC:\Users\Manel\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0-D__UVISION_VERSION="529" -D_RTE_ -DSTM32F10X_MD-o .\objects\port.o --omf_browse .\objects\port.crf --depend .\objects\port.d)
-I (FreeRTOS\include\FreeRTOS.h)(0x5E50FB65)
-I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9B6CC8)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B6CC8)
-I (FreeRTOS\include\FreeRTOSConfig.h)(0x5E50FB65)
-I (FreeRTOS\include\projdefs.h)(0x5E50FB65)
-I (FreeRTOS\include\portable.h)(0x5E50FB65)
-I (FreeRTOS\include\deprecated_definitions.h)(0x5E50FB65)
-I (FreeRTOS\portable\RVDS\ARM_CM3\portmacro.h)(0x5E50FB65)
-I (FreeRTOS\include\mpu_wrappers.h)(0x5E50FB65)
-I (FreeRTOS\include\task.h)(0x5E50FB65)
-I (FreeRTOS\include\list.h)(0x5E50FB65)
-F (C:\Users\Manel\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\src\misc.c)(0x52FAA1F0)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I FreeRTOS\include -I FreeRTOS\portable\RVDS\ARM_CM3-I.\RTE\Device\STM32F103C8-I.\RTE\_STM32F103C8-IC:\Users\Manel\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Manel\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Users\Manel\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc-IC:\Users\Manel\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0-D__UVISION_VERSION="529" -D_RTE_ -DSTM32F10X_MD-o .\objects\misc.o --omf_browse .\objects\misc.crf --depend .\objects\misc.d)
-I (C:\Users\Manel\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\misc.h)(0x52FAA1F0)
-I (C:\Users\Manel\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x5825EF3C)
-I (.\RTE\_STM32F103C8\RTE_Components.h)(0x5E81B59F)
-I (C:\Users\Manel\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm3.h)(0x5D263976)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B6CC8)
-I (C:\Users\Manel\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D263976)
-I (C:\Users\Manel\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D263976)
-I (C:\Users\Manel\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D263976)
-I (C:\Users\Manel\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x5825EF3C)
-I (.\RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x5E50FB65)
-I (C:\Users\Manel\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52FAA1F0)
-I (C:\Users\Manel\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52FAA1F0)
-F (C:\Users\Manel\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\src\stm32f10x_gpio.c)(0x52FAA1F0)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I FreeRTOS\include -I FreeRTOS\portable\RVDS\ARM_CM3-I.\RTE\Device\STM32F103C8-I.\RTE\_STM32F103C8-IC:\Users\Manel\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Manel\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Users\Manel\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc-IC:\Users\Manel\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0-D__UVISION_VERSION="529" -D_RTE_ -DSTM32F10X_MD-o .\objects\stm32f10x_gpio.o --omf_browse .\objects\stm32f10x_gpio.crf --depend .\objects\stm32f10x_gpio.d)
-I (C:\Users\Manel\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52FAA1F0)
-I (C:\Users\Manel\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x5825EF3C)
-I (.\RTE\_STM32F103C8\RTE_Components.h)(0x5E81B59F)
-I (C:\Users\Manel\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm3.h)(0x5D263976)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B6CC8)
-I (C:\Users\Manel\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D263976)
-I (C:\Users\Manel\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D263976)
-I (C:\Users\Manel\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D263976)
-I (C:\Users\Manel\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x5825EF3C)
-I (.\RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x5E50FB65)
-I (C:\Users\Manel\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52FAA1F0)
-I (C:\Users\Manel\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\misc.h)(0x52FAA1F0)
-F (C:\Users\Manel\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\src\stm32f10x_rcc.c)(0x52FAA1F0)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I FreeRTOS\include -I FreeRTOS\portable\RVDS\ARM_CM3-I.\RTE\Device\STM32F103C8-I.\RTE\_STM32F103C8-IC:\Users\Manel\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Manel\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Users\Manel\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc-IC:\Users\Manel\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0-D__UVISION_VERSION="529" -D_RTE_ -DSTM32F10X_MD-o .\objects\stm32f10x_rcc.o --omf_browse .\objects\stm32f10x_rcc.crf --depend .\objects\stm32f10x_rcc.d)
-I (C:\Users\Manel\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52FAA1F0)
-I (C:\Users\Manel\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x5825EF3C)
-I (.\RTE\_STM32F103C8\RTE_Components.h)(0x5E81B59F)
-I (C:\Users\Manel\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm3.h)(0x5D263976)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B6CC8)
-I (C:\Users\Manel\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D263976)
-I (C:\Users\Manel\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D263976)
-I (C:\Users\Manel\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D263976)
-I (C:\Users\Manel\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x5825EF3C)
-I (.\RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x5E50FB65)
-I (C:\Users\Manel\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52FAA1F0)
-I (C:\Users\Manel\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\misc.h)(0x52FAA1F0)
-F (RTE\Device\STM32F103C8\RTE_Device.h)(0x5E50FB65)()
-F (RTE\Device\STM32F103C8\startup_stm32f10x_md.s)(0x5E50FB65)(--cpu Cortex-M3 --pd "__EVAL SETA 1" -g --apcs=interwork -I.\RTE\Device\STM32F103C8-I.\RTE\_STM32F103C8-IC:\Users\Manel\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Manel\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Users\Manel\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc-IC:\Users\Manel\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0--pd "__UVISION_VERSION SETA 529" --pd "_RTE_ SETA 1" --pd "STM32F10X_MD SETA 1"--list .\listings\startup_stm32f10x_md.lst --xref -o .\objects\startup_stm32f10x_md.o --depend .\objects\startup_stm32f10x_md.d)
-F (RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x5E50FB65)()
-F (RTE\Device\STM32F103C8\system_stm32f10x.c)(0x5E50FB65)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I FreeRTOS\include -I FreeRTOS\portable\RVDS\ARM_CM3-I.\RTE\Device\STM32F103C8-I.\RTE\_STM32F103C8-IC:\Users\Manel\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Manel\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Users\Manel\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc-IC:\Users\Manel\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0-D__UVISION_VERSION="529" -D_RTE_ -DSTM32F10X_MD-o .\objects\system_stm32f10x.o --omf_browse .\objects\system_stm32f10x.crf --depend .\objects\system_stm32f10x.d)
-I (C:\Users\Manel\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x5825EF3C)
-I (.\RTE\_STM32F103C8\RTE_Components.h)(0x5E81B59F)
-I (C:\Users\Manel\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm3.h)(0x5D263976)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B6CC8)
-I (C:\Users\Manel\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D263976)
-I (C:\Users\Manel\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D263976)
-I (C:\Users\Manel\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D263976)
-I (C:\Users\Manel\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x5825EF3C)
-I (.\RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x5E50FB65)
-I (C:\Users\Manel\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52FAA1F0)
-I (C:\Users\Manel\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52FAA1F0)
-I (C:\Users\Manel\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\misc.h)(0x52FAA1F0)
