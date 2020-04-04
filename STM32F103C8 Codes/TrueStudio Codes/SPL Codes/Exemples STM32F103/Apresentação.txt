@@ -1,0 +1,3 @@
+Arquivos retirados de: https://github.com/avislab/STM32F103
+
+muitos deles não foram revisados por mim, mas servem como base para estudos futuros!
