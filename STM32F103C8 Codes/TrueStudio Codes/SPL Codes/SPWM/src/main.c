@@ -72,9 +72,9 @@ void InitializeTimer()
     TIM_TimeBaseInit(TIM4, &timerInitStructure);
 
     /*PORTADORA*/
-    timerInitStructure.TIM_Prescaler = 0;
+    timerInitStructure.TIM_Prescaler = 0;						// 72 => 72Mhz / 72 = 1Mhz
     timerInitStructure.TIM_CounterMode = TIM_CounterMode_Up;
-    timerInitStructure.TIM_Period = 999;
+    timerInitStructure.TIM_Period = 999;						// 1 + 999*(1us) = 1000us = 1ms periode
     timerInitStructure.TIM_ClockDivision = TIM_CKD_DIV1;
     timerInitStructure.TIM_RepetitionCounter = 0;
     TIM_TimeBaseInit(TIM3, &timerInitStructure);
@@ -113,7 +113,7 @@ int main(void)
 	/* Infinite loop */
 	while (1)
 	{
-		sin_value = sin(2 * pi * (TIM4->CNT - 1)/(TIM4->ARR));
+		sin_value = sin(2 * pi * (TIM4->CNT)/(TIM4->ARR));
 		TIM3->CCR1 = (int)( (TIM4->ARR) * 0.5 * (1 + sin_value));
 	}	//end of while
 }	//end of main
